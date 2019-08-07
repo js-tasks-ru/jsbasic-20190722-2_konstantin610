@@ -5,5 +5,5 @@
  * @returns {number}
  */
 function sum(m, n) {
-  m + n;
+  return m + n;
 }
