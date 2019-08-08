@@ -5,5 +5,9 @@
  * @returns {number}
  */
 function pow(m, n) {
+  if (m !== parseInt(m, 10)) {
+    return 0;
+  }
 
+  return m ** n;
 }
